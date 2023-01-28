@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+    background: #dedede;
+    font-family: 'Poppins', sans-serif;
+}
+h1,h2,h3,h4,h5,p{
+    margin: 0;
+}
+.container{
+    max-width: 1024px;
+    margin: 0 auto;
+}
+.table-responsive{
+    width: 100%;
+    border-collapse: collapse;
+}
+.table-responsive td,
+.table-responsive th{
+    border: 1px solid #666;
+    padding: 8px;
+}
+input,
+textarea{
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #dedede;
+}
+.form-wrap{
+    width: 600px;
+    margin: 0 auto;
+    border: 1px solid #999;
+    padding: 30px;
+    margin-bottom: 100px;
+}
+.button{
+    background: greenyellow;
+    border: greenyellow;
+    padding: 10px 15px;
+    color: green;
+    font-weight: 800;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.button:hover{
+    opacity: 0.8;
+    background: green;
+    color: #fff;
+}
+.section-3-column{
+    column-count: 3;
+    column-gap: 30px;
+    column-width: 200px;
+}
+.row-box{
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+}
+.box{
+    width: 33.33333%;
+    background: #999;
+    border: 1px solid #dedede;
+}
+@media screen and (max-width: 991px){
+    .box{
+        background: green;
+        color: #fff;
+    }
+}
+@media screen and (max-width: 768px){
+    .row-box{
+       flex-direction: column; 
+    }
+    .box{
+        width: 100%;
+    }
+}
+

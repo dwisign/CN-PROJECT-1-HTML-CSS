@@ -5,9 +5,84 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML & CSS</title>
+    <link href="css/style.css" rel="stylesheet"/>
+
+    <!-- <style>
+        body{
+            margin: 0;
+        }
+    </style> -->
 </head>
 <body>
+    <div class="container">
+    <h1>HAI NAMA SAYA DWI</h1>
+    <hr>
+    <ul>
+        <li><a href="#">PROFIL SINGKAT</a></li>
+        <li><a href="#biodata">BIODATA</a></li>
+        <li><a href="about.html">RIWAYAT PENDIDIKAN</a></li>
+        <li><a href="http://www.google.com" target="_blank">HOBI</a></li>
+        <li><a href="#kontak">KONTAK</a></li>
+    </ul>
+    <br><br>
+    <div class="section-3-column">
+        <h2>PROFIL SINGKAT</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi necessitatibus quae nisi repellat reiciendis! Assumenda consectetur cum nam, vel odio magni, reiciendis impedit harum a cupiditate quis debitis maiores. Quia?, Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi necessitatibus quae nisi repellat reiciendis! Assumenda consectetur cum nam, vel odio magni, reiciendis impedit harum a cupiditate quis debitis maiores. Quia? Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi necessitatibus quae nisi repellat reiciendis! Assumenda consectetur cum nam, vel odio magni, reiciendis impedit harum a cupiditate quis debitis maiores. Quia?</p>
+    </div>
+    <img src="images/avataaars.png" width="200">
+    <br><br>
+    <h2 id="biodata">BIODATA</h2>
+    <table class="table-responsive">
+        <tr>
+            <th colspan="2">Nama</th>
+            <th>Tempat, Tanggal Lahir</th>
+            <th>Hobi</th>
+        </tr>
+        <tr>
+            <td>Dwi Pamungkas</td>
+            <td>Jakarta, 7 Februari 1985</td>
+            <td>Bersepeda</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Dwi Pamungkas</td>
+            <td>Jakarta, 7 Februari 1985</td>
+            <td>Bersepeda</td>
+            <td></td>
+        </tr>
+    </table>
+    <br><br>
+    <h2 id="kontak">KONTAK</h2>
+    <p>
+        Jalan Gaga 1B No.21 Ciledug<br>
+        Tangerang Banten<br>
+        15154
+    </p>
     
-    
+    <div class="form-wrap">
+        <h4>Mari berkolaborasi</h4>
+        <form>
+            <div>
+                <label>Nama :</label>
+                <input type="text" />
+            </div>
+            <br>
+            <div>
+                <label>Email :</label>
+                <input type="email" />
+            </div>
+            <br>
+            <div>
+                <label>Pesan :</label>
+                <textarea type="textarea" rows="6"></textarea>
+            </div>
+            <br>
+            <div>
+                <input class="button" type="submit" value="Submit"><br>
+                <button class="button" type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+    </div>
 </body>
 </html>
